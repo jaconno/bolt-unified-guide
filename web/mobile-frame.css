@@ -1,0 +1,18 @@
+@media (min-width: 500px) {
+  html, body {
+    background: #1a1a2e !important;
+  }
+
+  #root {
+    max-width: 390px;
+    width: 390px;
+    height: 844px;
+    max-height: 100vh;
+    margin: 24px auto;
+    border-radius: 44px;
+    overflow: hidden;
+    box-shadow: 0 0 0 10px #2a2a3e, 0 30px 80px rgba(0,0,0,0.6);
+    position: relative;
+    flex: none !important;
+  }
+}
