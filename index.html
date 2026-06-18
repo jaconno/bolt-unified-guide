@@ -23,7 +23,24 @@
         flex: 1;
       }
     </style>
-  <link rel="icon" href="/bolt-unified-guide/favicon.ico" /></head>
+  <link rel="icon" href="/bolt-unified-guide/favicon.ico" />
+  <style>
+    @media (min-width: 500px) {
+      html, body { background: #1a1a2e !important; overflow: hidden; }
+      #root {
+        max-width: 390px !important;
+        width: 390px !important;
+        height: 844px !important;
+        margin: 24px auto !important;
+        border-radius: 44px !important;
+        overflow: hidden !important;
+        box-shadow: 0 0 0 10px #2a2a3e, 0 30px 80px rgba(0,0,0,0.6) !important;
+        flex: none !important;
+        position: relative !important;
+      }
+    }
+  </style>
+  </head>
 
   <body>
     <!-- Use static rendering with Expo Router to support running without JavaScript. -->
